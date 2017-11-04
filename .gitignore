@@ -1,0 +1,14 @@
+# Node modules
+node_modules/
+
+# Temporary Paket files
+paket-files/
+# Paket contains this file, so we don't need to manage it
+.paket/Paket.Restore.targets
+
+# Output directory
+dist/
+
+# .NET output directories
+bin/
+obj/
