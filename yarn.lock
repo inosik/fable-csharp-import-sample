@@ -768,9 +768,9 @@ extsprintf@1.3.0, extsprintf@^1.2.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.3.0.tgz#96918440e3041a7a414f8c52e3c574eb3c3e1e05"
 
-fable-splitter@^0.1.20:
-  version "0.1.20"
-  resolved "https://registry.yarnpkg.com/fable-splitter/-/fable-splitter-0.1.20.tgz#213af3f0fc69e0c2265e5d98e391ba0aa284c9a6"
+fable-splitter@^0.1.21:
+  version "0.1.21"
+  resolved "https://registry.yarnpkg.com/fable-splitter/-/fable-splitter-0.1.21.tgz#6b1c6f47c03ca54c22adb19179b4d9268bc67d91"
   dependencies:
     chokidar "^1.7.0"
     fable-utils "^1.0.6"
@@ -1109,9 +1109,9 @@ kind-of@^4.0.0:
   dependencies:
     is-buffer "^1.1.5"
 
-left-pad@^1.1.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/left-pad/-/left-pad-1.1.3.tgz#612f61c033f3a9e08e939f1caebeea41b6f3199a"
+left-pad@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/left-pad/-/left-pad-1.2.0.tgz#d30a73c6b8201d8f7d8e7956ba9616087a68e0ee"
 
 lodash@^4.17.4:
   version "4.17.4"
