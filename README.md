@@ -1,4 +1,4 @@
-# Fable Bindings With C#
+# Fable Bindings With C\#
 
 This is a sample which shows that we can create bindings for Fable projects with C# or any other .NET language.
 
@@ -14,22 +14,21 @@ This might be useful if we wanted to reuse [Retyped][retyped] bindings with Fabl
 
 Follow these steps:
 
-1. Restore the packages
-    1. `.paket/paket.exe restore`
-    1. `yarn install`
+``` shell
+# Restore the packages
+dotnet tool restore
+dotnet restore
+npm install
 
-1. Prepare the bindings project
-    1. `pushd Fable.Import.LeftPad/`
-    1. `dotnet restore`
-    1. `dotnet build`
-    1. `popd`
+# Prepare the bindings project
+dotnet build -o bindings Fable.Import.LeftPad/
 
-1. Prepare the sample project
-    1. `cd Sample/`
-    1. `dotnet restore`
-    1. `dotnet fable start`
+# Compile to JavaScript
+dotnet fable Sample/ --outDir dist-temp
 
-1. Compile to JS and run it
-    1. Open another terminal window in the project directory
-    1. `yarn run build`
-    1. `node .`
+# Compile the JavaScript produced by Fable to JS code that Node understands
+npx rollup -c
+
+# Run the sample application
+node .
+```

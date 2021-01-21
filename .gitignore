@@ -1,14 +1,14 @@
 # Node modules
 node_modules/
 
-# Temporary Paket files
-paket-files/
-# Paket contains this file, so we don't need to manage it
-.paket/Paket.Restore.targets
-
 # Output directory
+dist-temp/
 dist/
 
 # .NET output directories
 bin/
 obj/
+bindings/
+
+# Tools
+.ionide/
