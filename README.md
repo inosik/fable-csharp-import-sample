@@ -10,6 +10,28 @@ This might be useful if we wanted to reuse [Retyped][retyped] bindings with Fabl
 
   [retyped]: https://retyped.com
 
+## Why C\#?
+
+I noticed that with the `extern` keyword, we can build really nice bindings for JavaScript packages. However, `extern` is somewhat limited and hard to use in F#. It can only be used with functions, and the syntax switches to a C-like style when creating such functions. In C#, however, `extern` can be pretty much slapped on everything: instance methods, static methods, properties and even constructors!
+
+Bindings for JavaScript classes, for example, become really straight forward to write for authors:
+
+``` csharp
+[Fable.Core.Global]
+public class XMLHttpRequest
+{
+  public extern XMLHttpRequest();
+  public extern void send();
+}
+```
+
+And easy to use for users:
+
+``` fsharp
+let req = XMLHttpRequest ()
+req.send ()
+```
+
 ## Instructions
 
 Follow these steps:
