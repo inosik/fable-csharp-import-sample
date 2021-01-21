@@ -20,8 +20,10 @@ dotnet tool restore
 dotnet restore
 npm install
 
-# Prepare the bindings project
+# Prepare the bindings
+# Unfortunately, project references don't work here
 dotnet build -o bindings Fable.Import.LeftPad/
+dotnet build -o bindings Fable.Import.Node/
 
 # Compile to JavaScript
 dotnet fable Sample/ --outDir dist-temp

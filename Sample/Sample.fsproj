@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <Reference Include="..\bindings\Fable.Import.LeftPad.dll" />
+    <Reference Include="..\bindings\Fable.Import.Node.dll" />
   </ItemGroup>
 
   <ItemGroup>

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fable.Import.LeftPad", "Fab
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Sample", "Sample\Sample.fsproj", "{8ED529DF-2C4F-4F2A-98B4-E03B7356A4AC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fable.Import.Node", "Fable.Import.Node\Fable.Import.Node.csproj", "{1348B9CC-5297-40DA-82BB-C34969CC567E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{8ED529DF-2C4F-4F2A-98B4-E03B7356A4AC}.Release|x64.Build.0 = Release|Any CPU
 		{8ED529DF-2C4F-4F2A-98B4-E03B7356A4AC}.Release|x86.ActiveCfg = Release|Any CPU
 		{8ED529DF-2C4F-4F2A-98B4-E03B7356A4AC}.Release|x86.Build.0 = Release|Any CPU
+		{1348B9CC-5297-40DA-82BB-C34969CC567E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1348B9CC-5297-40DA-82BB-C34969CC567E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1348B9CC-5297-40DA-82BB-C34969CC567E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1348B9CC-5297-40DA-82BB-C34969CC567E}.Debug|x64.Build.0 = Debug|Any CPU
+		{1348B9CC-5297-40DA-82BB-C34969CC567E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1348B9CC-5297-40DA-82BB-C34969CC567E}.Debug|x86.Build.0 = Debug|Any CPU
+		{1348B9CC-5297-40DA-82BB-C34969CC567E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1348B9CC-5297-40DA-82BB-C34969CC567E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1348B9CC-5297-40DA-82BB-C34969CC567E}.Release|x64.ActiveCfg = Release|Any CPU
+		{1348B9CC-5297-40DA-82BB-C34969CC567E}.Release|x64.Build.0 = Release|Any CPU
+		{1348B9CC-5297-40DA-82BB-C34969CC567E}.Release|x86.ActiveCfg = Release|Any CPU
+		{1348B9CC-5297-40DA-82BB-C34969CC567E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
