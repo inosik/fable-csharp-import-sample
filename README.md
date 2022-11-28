@@ -48,10 +48,7 @@ dotnet build -o bindings Fable.Import.LeftPad/
 dotnet build -o bindings Fable.Import.Node/
 
 # Compile to JavaScript
-dotnet fable Sample/ --outDir dist-temp
-
-# Compile the JavaScript produced by Fable to JS code that Node understands
-npx rollup -c
+dotnet fable Sample/ --outDir js
 
 # Run the sample application
 node .
